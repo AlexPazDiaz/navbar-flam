@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+  line-height: 24px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+body nav {
+  background-color: #F95476;
+  color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+
+body nav ul {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body nav ul .flamcss {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+body nav ul li {
+  position: relative;
+  color: white;
+  list-style: none;
+}
+
+body nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#icon {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  right: 100px;
+}
+
+.left-li {
+  position: relative;
+  right: 100px;
+  margin: 50px;
+}
+
+.right-li {
+  position: relative;
+  left: 100px;
+  margin: 50px;
+}
+
+@media only screen and (max-width: 1400px) {
+  body {
+    font-size: 2vh;
+  }
+  body nav ul .flamcss {
+    font-size: 4vh;
+    font-weight: 800;
+  }
+  body nav ul .left-li {
+    position: relative;
+    right: 20px;
+  }
+  body nav ul .right-li {
+    position: relative;
+    left: 20px;
+  }
+  body nav ul #icon {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    right: 10px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  body {
+    font-size: 1.3vh;
+  }
+  body nav ul .flamcss {
+    font-size: 2.5vh;
+    text-align: center;
+  }
+  body nav ul .left-li {
+    position: relative;
+    right: 20px;
+    margin: 10px;
+  }
+  body nav ul .right-li {
+    position: relative;
+    left: 10px;
+    margin: 10px;
+  }
+  body nav ul #icon {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    right: 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
